@@ -22,7 +22,7 @@
                              To achieve this we import LabelEncoder class from sklearn.preprocessing library.
 
 5. Splitting the dataset into test set and training set: We make two partitions of data set one for training the model called the    training set and the other for testing the performance of the trained model called the test set. The split is generally 80/20.
-We import train_test_split() method of sklearn.
+We import train_test_split() method of sklearn.model_selection
 
 6. Feature scaling: Most of the machine learning algorithms use the Euclidean distance between two data points in their computation,
                     features highly varying in magnitudes, units and range pose problems.
